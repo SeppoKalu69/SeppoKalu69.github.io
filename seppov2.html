@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juttua</title>
+<style>
+*{
+box-sizing: border-box;
+}
+
+#header,#footer {
+border:solid 3px;
+background-color: green;
+}
+#menu, #content, #container {
+border: solid 1px;
+}
+img{
+float:right;
+}
+#menu {
+float:left;
+widht:75%;
+}
+#menu ul {
+list-style-type:none;
+} 
+
+#menu li {
+bacground-color:blue;
+padding:2px;
+margin:5px;
+color:red;
+}
+#menu li:hover {
+background-color:red;
+color:silver;
+}
+#container::after {
+content:"";
+clear:both;
+clear:both;
+display:table;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<h1>Nousiaisten nähtävyydet</h1>
+</div>
+<div id="container">
+<div id="menu">
+#Menu
+<ul>
+    <li>Historia</li>
+	<li><a href="juttu.html">Seppo</a></li>
+	<li>Ulla</li>
+	</ul>
+
+</div>
+<div id="content">
+<img style="width:250px;" src="https://scontent-sea1-1.cdninstagram.com/t51.2885-15/e35/10838369_1133644886668400_1018807798_n.jpg?ig_cache_key=MTIxMzk4MTMxNTc4OTI4NjQxMg%3D%3D.2">
+<p><h3>Historia</h3>Seppo Taalasmaa oli televisiosarjassa rehti ja toimelias talonmies. Hahmon näyttelijän Jarmo Kosken mukaan Seppo oli ”avarakatseinen, hyväsydäminen” ja ymmärtäväinen nuoria kohtaan. Sarjan ulkopuolelta saamansa myönteisen palautteen perusteella Koski pitää Seppoa eräänlaisena ”isähahmona”.
+
+Sarjassa Seppo kärsi alkoholismista, ja päätyi yrittämään itsemurhaa. Pitkänäperjantaina 2012 esitetty jakso päättyy kohtaukseen, jossa Seppo kiipeää jakkaralle ja potkaisee sen pois altaan. Itsemurhayritys aiheutti yhden sarjan suurimmista kohuista katsojien keskuudessa. Kohtausta puitiin iltapäivälehtien otsikoissa ja jakson ikäraja nostettiin sarjalle tavanomaisesta 9:stä poikkeuksellisesti 12:een.
+
+Seppo sairasti lisäksi vaikeaa sydänsairautta, ja sai sarjan aikana yhteensä kolme sydänkohtausta.Kerran Ismo kuitenkin pelasti Sepon melkein neljänneltä sydänkohtaukselta.
+
+Hahmo tuli tunnetuksi myös sanonnastaan ”Voi saakeli tätä elämää!” Seppo harrasti innokkaasti raveja ja laittoi panoksia aina jollekin hevoselle ja yleensä lähes aina hänen veikkaama hevonen voitti. Lisäksi hän harrasti pontikan keittämistä ja antiikkitavaroiden keräilyä.
+</div>
+</div>
+
+<div id="footer">
+<p>&copy;Tivi17o</p>
+</div>
+</body>
+</html>
